@@ -1,11 +1,15 @@
+Customer Outage Communications Drafter
+
 Engineer Input
       ↓
-Timeline Analysis
+Incident Timeline
       ↓
-Severity Detection
+Severity Analysis Agent
       ↓
-Prompt Builder
+Prompt Construction
       ↓
-Gemini AI
+Google Gemini 2.5 Flash
       ↓
-Generated Communications
+Customer-Friendly Updates
+      ↓
+Downloadable Communication Drafts

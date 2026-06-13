@@ -7,22 +7,42 @@ load_dotenv()
 API_KEY = os.getenv("GEMINI_API_KEY")
 
 client = genai.Client(api_key=API_KEY)
-
 def analyze_severity(timeline):
 
     timeline = timeline.lower()
 
-    critical_keywords = [
-        "down",
+    critical_words = [
         "outage",
+        "down",
         "unavailable",
         "failure",
-        "service restored"
+        "critical"
     ]
 
-    for word in critical_keywords:
-        if word in timeline:
-            return "Critical"
+    high_words = [
+        "degraded",
+        "latency",
+        "slow",
+        "performance"
+    ]
+
+    critical_score = sum(
+        1 for word in critical_words
+        if word in timeline
+    )
+
+    high_score = sum(
+        1 for word in high_words
+        if word in timeline
+    )
+
+    if critical_score >= 1:
+        return "Critical"
+
+    if high_score >= 1:
+        return "High"
+
+    return "Medium"
 
     return "Medium"
 
@@ -39,6 +59,8 @@ Business Rules:
 - Professional wording
 - Focus on service impact and restoration progress
 - Keep updates concise and reassuring
+- Use clear business communication style
+- Do not expose internal technical details
 - Tone must be {tone}
 - Severity level is {severity}
 

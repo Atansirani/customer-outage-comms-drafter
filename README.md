@@ -10,7 +10,7 @@ The application leverages Google's Gemini AI model along with an AI-agent workfl
 
 ---
 
-## Business Problem
+## Problem Statement
 
 During service outages:
 
@@ -223,6 +223,24 @@ The issue has been fully resolved and all services have been restored. We sincer
 * Generated content may require human approval before external communication.
 * Depends on external AI service availability.
 
+---
+## AI Capability Demonstrated
+
+This prototype demonstrates an AI Agent workflow:
+
+1. Accept technical outage timeline input.
+2. Analyze outage severity.
+3. Construct contextual prompts.
+4. Invoke Gemini 2.5 Flash for communication generation.
+5. Validate and display structured customer updates.
+6. Export generated communications.
+
+The system demonstrates:
+
+* LLM-powered content generation
+* Prompt engineering
+* Agent-based decision flow
+* Structured communication output
 ---
 
 ## Future Enhancements
