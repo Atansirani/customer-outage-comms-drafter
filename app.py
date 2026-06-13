@@ -67,3 +67,8 @@ if st.button("Generate Drafts"):
 
         else:
             st.write(result)
+        else:
+    st.write(result)
+
+    st.markdown("---")
+    st.caption("AI-Powered Customer Outage Communications Drafter")
