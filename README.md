@@ -270,5 +270,23 @@ AI was used for:
 All generated code was reviewed, tested, and validated by the development team.
 
 ---
+## Demo Video
+
+Demo Video Link:
+
+https://drive.google.com/file/d/1RFvqpkAbMqpwySXnjClI5boM1HY1YgKL/view?usp=sharing
+---
+## Team Members (Team No 3)
+
+| Name                    | Role                                          |
+| --------------------    | --------------------------------------------- |
+| Arnipalli Tansi Rani    | UI Development, AI Integration, Documentation |
+| Yadagiri Charishma      | Backend Logic & Processing                    |
+| Rohit Sharma            | Testing & Validation                          |
+| Chukkala Lavanya Siri   | Documentation & Demo Video                    |
+
+## Team Documents
+
+The resumes of all team members are available in the `resumes/` directory.
 
 
