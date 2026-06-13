@@ -1,0 +1,15 @@
+INITIAL UPDATE:
+
+We are currently experiencing an issue affecting access to our service. Our teams are aware of this critical situation and are working diligently to restore full functionality as quickly as possible. We apologize for any inconvenience.
+
+===
+
+IN PROGRESS UPDATE:
+
+We have identified the cause of the service disruption and our teams are actively implementing a resolution. We are making good progress towards restoring service and will provide another update shortly. Thank you for your continued patience.
+
+===
+
+RESOLVED UPDATE:
+
+We are pleased to confirm that service has been fully restored and normal operations have resumed. We have addressed the issue and will continue to monitor the system closely. Thank you for your patience and understanding.
