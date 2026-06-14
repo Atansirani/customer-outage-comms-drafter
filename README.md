@@ -138,14 +138,40 @@ Customer-Outage-Comms-Drafter/
 │
 ├── app.py
 ├── agent.py
-├── test_agent.py
-├── .env
-├── .gitignore
+├── requirements.txt
 ├── README.md
+├── .env.example
+├── .gitignore
+│
+├── docs/
+│   ├── AI_Usage_Note.md
+│   ├── Architecture.md
+│   └── prompts.md
 │
 ├── sample_data/
+│   ├── sample_input.txt
+│   └── sample_output.txt
+│
 ├── tests/
-└── docs/
+│   └── test_agent.py
+│
+├── resumes/
+│   ├── Arnipalli_Tansi_Rani_Resume.pdf
+│   ├── Yadagiri_Charishma_Resume.pdf
+│   ├── Rohit_Sharma_Resume.pdf
+│   └── Chukkala_Lavanya_Siri_Resume.pdf
+```
+
+---
+
+## Testing
+
+Basic test cases have been implemented to validate core agent functionality.
+
+Run tests using:
+
+```bash
+python -m pytest tests/
 ```
 
 ---
@@ -224,6 +250,7 @@ The issue has been fully resolved and all services have been restored. We sincer
 * Depends on external AI service availability.
 
 ---
+
 ## AI Capability Demonstrated
 
 This prototype demonstrates an AI Agent workflow:
@@ -241,6 +268,7 @@ The system demonstrates:
 * Prompt engineering
 * Agent-based decision flow
 * Structured communication output
+
 ---
 
 ## Future Enhancements
@@ -270,12 +298,15 @@ AI was used for:
 All generated code was reviewed, tested, and validated by the development team.
 
 ---
+
 ## Demo Video
 
 Demo Video Link:
 
 https://drive.google.com/file/d/1RFvqpkAbMqpwySXnjClI5boM1HY1YgKL/view?usp=sharing
+
 ---
+
 ## Team Members (Team No 3)
 
 | Name                    | Role                                          |
@@ -284,6 +315,8 @@ https://drive.google.com/file/d/1RFvqpkAbMqpwySXnjClI5boM1HY1YgKL/view?usp=shari
 | Yadagiri Charishma      | Backend Logic & Processing                    |
 | Rohit Sharma            | Testing & Validation                          |
 | Chukkala Lavanya Siri   | Documentation & Demo Video                    |
+
+---
 
 ## Team Documents
 
