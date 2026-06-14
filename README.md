@@ -303,7 +303,7 @@ All generated code was reviewed, tested, and validated by the development team.
 
 🚀 Try the application online:
 
-https://your-streamlit-app-url.streamlit.app
+https://customer-outage-comms-drafter-xbpseczkrwxmwmxbvvkg39.streamlit.app/
 
 ---
 
