@@ -1,4 +1,4 @@
-#  Customer Outage Communications Drafter
+# Customer Outage Communications Drafter
 
 ## Overview
 
@@ -14,17 +14,17 @@ The application leverages Google's Gemini AI model along with an AI-agent workfl
 
 During service outages:
 
-* Engineers focus primarily on troubleshooting and recovery.
-* Customer communications are often delayed.
-* Technical updates may contain jargon unsuitable for customers.
-* Communication quality varies across teams.
+- Engineers focus primarily on troubleshooting and recovery.
+- Customer communications are often delayed.
+- Technical updates may contain jargon unsuitable for customers.
+- Communication quality varies across teams.
 
 These challenges can lead to:
 
-* Reduced customer trust
-* Increased support tickets
-* Poor incident communication experience
-* Inconsistent messaging
+- Reduced customer trust
+- Increased support tickets
+- Poor incident communication experience
+- Inconsistent messaging
 
 This project addresses these challenges by automatically generating customer-ready communications in seconds.
 
@@ -34,9 +34,9 @@ This project addresses these challenges by automatically generating customer-rea
 
 The application accepts:
 
-* Technical outage timeline
-* Incident severity
-* Desired communication tone
+- Technical outage timeline
+- Incident severity
+- Desired communication tone
 
 and automatically generates:
 
@@ -64,9 +64,9 @@ Uses Google's Gemini AI model to convert technical events into customer-friendly
 
 Supports multiple communication styles:
 
-* Calm
-* Empathetic
-* Concise
+- Calm
+- Empathetic
+- Concise
 
 ### Severity-Aware Processing
 
@@ -237,17 +237,17 @@ The issue has been fully resolved and all services have been restored. We sincer
 
 ## Assumptions
 
-* User provides a valid outage timeline.
-* Internet connectivity is available.
-* Gemini API services are accessible.
+- User provides a valid outage timeline.
+- Internet connectivity is available.
+- Gemini API services are accessible.
 
 ---
 
 ## Limitations
 
-* Severity analysis currently uses rule-based keyword detection.
-* Generated content may require human approval before external communication.
-* Depends on external AI service availability.
+- Severity analysis currently uses rule-based keyword detection.
+- Generated content may require human approval before external communication.
+- Depends on external AI service availability.
 
 ---
 
@@ -264,22 +264,22 @@ This prototype demonstrates an AI Agent workflow:
 
 The system demonstrates:
 
-* LLM-powered content generation
-* Prompt engineering
-* Agent-based decision flow
-* Structured communication output
+- LLM-powered content generation
+- Prompt engineering
+- Agent-based decision flow
+- Structured communication output
 
 ---
 
 ## Future Enhancements
 
-* Multi-language support
-* Automatic severity classification using AI
-* Incident summary generation
-* Email integration
-* Slack / Microsoft Teams integration
-* Historical incident analytics
-* PDF communication reports
+- Multi-language support
+- Automatic severity classification using AI
+- Incident summary generation
+- Email integration
+- Slack / Microsoft Teams integration
+- Historical incident analytics
+- PDF communication reports
 
 ---
 
@@ -289,11 +289,11 @@ This project was developed using AI-assisted software development practices.
 
 AI was used for:
 
-* Code generation assistance
-* Prompt engineering
-* UI prototyping
-* Documentation assistance
-* Testing support
+- Code generation assistance
+- Prompt engineering
+- UI prototyping
+- Documentation assistance
+- Testing support
 
 All generated code was reviewed, tested, and validated by the development team.
 
@@ -309,17 +309,15 @@ https://drive.google.com/file/d/1RFvqpkAbMqpwySXnjClI5boM1HY1YgKL/view?usp=shari
 
 ## Team Members (Team No 3)
 
-| Name                    | Role                                          |
-| --------------------    | --------------------------------------------- |
-| Arnipalli Tansi Rani    | UI Development, AI Integration, Documentation |
-| Yadagiri Charishma      | Backend Logic & Processing                    |
-| Rohit Sharma            | Testing & Validation                          |
-| Chukkala Lavanya Siri   | Documentation & Demo Video                    |
+| Name                  | Role                                          |
+| --------------------- | --------------------------------------------- |
+| Arnipalli Tansi Rani  | UI Development, AI Integration, Documentation |
+| Yadagiri Charishma    | Backend Logic & Processing                    |
+| Rohit Sharma          | Testing & Validation                          |
+| Chukkala Lavanya Siri | Documentation & Demo Video                    |
 
 ---
 
 ## Team Documents
 
 The resumes of all team members are available in the `resumes/` directory.
-
-
