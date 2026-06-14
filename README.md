@@ -299,6 +299,14 @@ All generated code was reviewed, tested, and validated by the development team.
 
 ---
 
+## Live Application
+
+🚀 Try the application online:
+
+https://your-streamlit-app-url.streamlit.app
+
+---
+
 ## Demo Video
 
 Demo Video Link:
