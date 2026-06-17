@@ -319,7 +319,7 @@ https://drive.google.com/file/d/1RFvqpkAbMqpwySXnjClI5boM1HY1YgKL/view?usp=shari
 
 Project Presentation (PPT):
 
-https://docs.google.com/presentation/d/1a9eYhu67aa3OXwDsdgVF4uZIX1qyEcWA/edit?usp=drive_link&ouid=113551972818563530438&rtpof=true&sd=true
+https://docs.google.com/presentation/d/1bURkD2AMUhOCYLEGC0HiJJ6_ljAgzR1M/edit?usp=sharing&ouid=113551972818563530438&rtpof=true&sd=true
 
 ---
 
